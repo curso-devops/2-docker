@@ -246,6 +246,6 @@ docker tag billingapp:prod abelalonso/billingapp:0.0.1
 docker login
 ~~~
 - Hacemos push de la imagen
-{{{
+~~~
   docker push abelalonso/billingapp:0.0.1
-}}}
+~~~
