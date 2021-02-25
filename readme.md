@@ -189,7 +189,7 @@ Creamos el *Dockerfile*:
 - **FROM** indica la imagen de la que partimos
 - **RUN** ejecuta comandos como si se invocaran desde la consola. Podemos separar un comando en varias líneas para que sea más legible usando **\\** al final de cada linea y **;** al final del comando.
 
-~~~docker
+~~~dockerfile
 FROM nginx:alpine
 
 # Install java 8
